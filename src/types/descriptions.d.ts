@@ -1,8 +1,8 @@
 export interface DescriptionsSchema {
-  span?: number // 占多少分
-  field: string // 字段名
-  label?: string // label名
-  mappedField?: string // 字段映射
+  span?: number
+  field: string
+  label?: string
+  mappedField?: string
   width?: string | number
   minWidth?: string | number
   align?: 'left' | 'center' | 'right'
